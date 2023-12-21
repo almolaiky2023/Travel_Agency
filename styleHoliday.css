@@ -1,0 +1,135 @@
+ 
+   
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;1,300;1,600&family=Poppins:ital,wght@1,200&family=Rubik+Lines&display=swap');
+ 
+body{
+    background-color:#C4BEB5;
+    /* font-family: 'Roboto', sans-serif; */
+}
+.logo {
+    position: absolute;
+    top: 15px;  
+    left: 10px; 
+    width: 100px; 
+    height: 70px; 
+}
+.Container 
+{
+    box-sizing: border-box;
+    display: flex;
+   /* border: red solid 2px; */
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-left: 0px;
+    padding-top: 0px;
+    background-color:#C1730E;
+    min-height: 70px;
+    text-decoration: none;
+    list-style-type: none;
+    align-items: center;
+    
+
+}
+.NavBar {
+    text-decoration: none;
+    color: #020000; /* Set the  text color */
+    font-size: 20px;
+   
+}
+
+/* Optionally, you can add styles for the Navbar items */
+.Container li {
+    margin: 0; /* Remove default margin for list items */
+}
+
+
+.ImageHomepage{
+
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+}
+.h1{
+
+    background-color: #ceb178;
+    margin-left: 420px;
+    display: inline-block;
+
+}
+.welcomeText{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+
+.social-icons a {
+    color: #fff;
+    font-size: 24px;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+
+.social-icons a:hover {
+    color: #ffd700; /* Change the color on hover */
+}
+
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.social-icons {
+    margin-bottom: 10px;
+}
+
+.social-icons a {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+/* here greece web page code  */
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+    width: 30%;
+    padding: 20px;
+  }
+ 
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+.GreeceH1{
+
+text-align: center;
+font-size: 20px;
+}
+.greeceText{
+
+    text-align: center;
+}
+.h2text{
+
+    text-align: center;
+    font-size: 15px;
+}
